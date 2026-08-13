@@ -1,4 +1,4 @@
-/* RESET BÁSICO */
+/* RESET BaSICO */
 * {
   margin: 0;
   padding: 0;
@@ -6,14 +6,14 @@
   font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
 }
 
-/* PALETA DE CORES (Tema Fibra Óptica / High-Tech) */
+/* PALETA DE CORES (Tema Fibra Otica / High-Tech) */
 :root {
-  --bg-dark: #070a12;
-  --card-bg: rgba(16, 24, 48, 0.7);
+  --bg-dark: #dd14dd;
+  --card-bg: rgba(6, 174, 216, 0.7);
   --cyan-glow: #00f0ff;
-  --purple-glow: #7000ff;
+  --purple-glow: #a262f5;
   --text-main: #f0f4f8;
-  --text-muted: #94a3b8;
+  --text-muted: #71880c;
 }
 
 body {
@@ -26,7 +26,7 @@ body {
     radial-gradient(circle at 80% 80%, rgba(112, 0, 255, 0.15) 0%, transparent 40%);
 }
 
-/* CABEÇALHO */
+/* CABEcALHO */
 .header {
   display: flex;
   justify-content: space-between;
@@ -102,7 +102,7 @@ p {
   line-height: 1.6;
 }
 
-/* BOTÕES COM EFEITO LUMINOSO */
+/* BOTOES COM EFEITO LUMINOSO */
 .btn {
   display: inline-block;
   padding: 0.8rem 2rem;
