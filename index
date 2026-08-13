@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planos - Fibra Óptica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">FIBRA<span>NET</span></div>
+    <nav class="nav">
+      <a href="index.html">← Início</a>
+      <a href="planos.html" class="active">Nossos Planos</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Escolha a sua Velocidade</h2>
+    
+    <div class="grid-planos">
+      <div class="card-plano">
+        <h3>300 Mega</h3>
+        <p class="preco">R$ 99<span>/mês</span></p>
+        <p>Ideal para redes sociais e streaming em HD.</p>
+        <a href="index.html" class="btn-outline">Voltar ao Início</a>
+      </div>
+
+      <div class="card-plano destacado">
+        <span class="badge">Mais Popular</span>
+        <h3>600 Mega</h3>
+        <p class="preco">R$ 139<span>/mês</span></p>
+        <p>Perfeito para múltiplos dispositivos e jogos online.</p>
+        <a href="index.html" class="btn">Contratar Agora</a>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
